@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/pharma-pharma-ui
+  repository: 579378699469.dkr.ecr.us-east-1.amazonaws.com/pharma-pharma-ui
   tag: latest
   pullPolicy: Always
 
