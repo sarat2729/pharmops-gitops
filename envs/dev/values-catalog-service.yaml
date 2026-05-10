@@ -2,7 +2,7 @@ replicaCount: 1
 
 # fullnameOverride ensures the Kubernetes service name matches the service directory name
 # and matches the default URL expected by api-gateway
-fullnameOverride: drug-drug-catalog-service
+fullnameOverride: drug-catalog-service
 
 image:
   repository: 579378699469.dkr.ecr.us-east-1.amazonaws.com/drug-catalog-service
@@ -76,4 +76,4 @@ volumes:
 serviceAccount:
   create: true
   annotations: {}
-  name: drug-drug-catalog-service
+  name: drug-catalog-service
